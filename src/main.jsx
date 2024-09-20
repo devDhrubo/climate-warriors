@@ -8,6 +8,7 @@ import {
 import Root from './Root';
 import Error from './pages/ErrorPage/Error';
 import Home from './pages/Home/Home';
+import Team from './pages/Team/Team';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element:<Home/>
+      },
+      {
+        path: '/about',
+        element: <Team/>
       }
     ]
   },

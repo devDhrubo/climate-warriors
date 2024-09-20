@@ -7,3 +7,17 @@
 .font-inter{
     font-family: "Inter", system-ui;
 }
+
+.primary{
+    color: #003135;
+}
+.secondary{
+    color: #024950;
+}
+
+.text-primary{
+    color: #fff;
+}
+.text-secondary{
+   color:#964734;
+}
