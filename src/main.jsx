@@ -9,6 +9,8 @@ import Root from './Root';
 import Error from './pages/ErrorPage/Error';
 import Home from './pages/Home/Home';
 import Team from './pages/Team/Team';
+import Newsfeed from './pages/Newsfeed/Newsfeed';
+import ImpactCal from './pages/ImpactCal/ImpactCal';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +21,14 @@ const router = createBrowserRouter([
       {
         path: "/",
         element:<Home/>
+      },
+      {
+        path: "/newsfeed",
+        element:<Newsfeed/>
+      },
+      {
+        path: "/impact",
+        element: <ImpactCal/>
       },
       {
         path: '/about',

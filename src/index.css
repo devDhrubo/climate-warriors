@@ -8,16 +8,9 @@
     font-family: "Inter", system-ui;
 }
 
-.primary{
-    color: #003135;
-}
-.secondary{
-    color: #024950;
-}
+/* Earth Brown (#5D4037) – For soil and grounded tones.
+Flood Water Blue (#1565C0) – Strong emphasis on water.
+Safety Yellow (#FFD600) – Eye-catching for warnings or emergency buttons.
+Cloud White (#E0E0E0) – Neutral background for contrast.
+Grass Green (#4CAF50) – Signifies recovery and renewal. */
 
-.text-primary{
-    color: #fff;
-}
-.text-secondary{
-   color:#964734;
-}

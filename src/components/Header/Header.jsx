@@ -3,8 +3,9 @@ const Header = () => {
 
    const navLink = <>
         <Link><li><a>Home</a></li></Link>
-        <Link><li><a>Flood Risk Analysis</a></li></Link>
+        <Link to="/newsfeed"><li><a>Newsfeed</a></li></Link>
         <Link to="/about"><li><a>About Us</a></li></Link>
+        <Link to="/impact"><li><a>Impact Calculator</a></li></Link>
     </>
 
     return (
@@ -40,7 +41,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="px-5 py-3 bg-[#003135] text-white rounded-md text-sm cursor-pointer">Contact Us</a>
+                    <a className="px-5 py-3 bg-[#1565C0] text-white rounded-md text-sm cursor-pointer">Contact Us</a>
                 </div>
             </div>
         </div>

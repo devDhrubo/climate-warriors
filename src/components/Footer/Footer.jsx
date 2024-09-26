@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <div>
-            <footer className="footer bg-base-200 text-base-content p-10 mt-20">
+            <footer className="footer bg-base-300 text-base-content p-10 mt-20 ">
                 <nav>
                     <h6 className="footer-title">Quick Links</h6>
                     <a className="link link-hover">Home</a>
@@ -22,7 +22,7 @@ const Footer = () => {
                     <a className="link link-hover">Privacy policy</a>
                 </nav>
             </footer>
-            <footer className="footer bg-base-200 text-base-content border-base-300 border-t px-10 py-4">
+            <footer className="footer bg-base-300 text-base-content border-base-300 border-t px-10 py-4">
                 <aside className="grid-flow-col items-center">
                     <p className="italic">
                        All Right Reserved By Climate Warriors | 2024</p>
