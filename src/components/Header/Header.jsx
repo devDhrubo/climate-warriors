@@ -1,5 +1,15 @@
+import { GiRingingBell } from "react-icons/gi";
 import { Link } from "react-router-dom";
+import Swal from "sweetalert2";
+import logo from "../../assets/Image/logo.jpg";
 const Header = () => {
+    const alert = () => {
+        Swal.fire({
+            title: "Thanks For Contact!",
+            text: "Our Team Will Contact with you soon",
+            icon: "success"
+        });
+    }
 
    const navLink = <>
         <Link><li><a>Home</a></li></Link>
@@ -9,6 +19,7 @@ const Header = () => {
     </>
 
     return (
+        
         <div className="container mx-auto">
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
@@ -33,7 +44,7 @@ const Header = () => {
                             {navLink}
                         </ul>
                     </div>
-                    <a className="text-xl font-bold">Climate <span className="italic">Warriors</span></a>
+                    <a href="/"><img src={logo} alt="Climate Warriors" className="h-14" /></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -41,7 +52,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="px-5 py-3 bg-[#1565C0] text-white rounded-md text-sm cursor-pointer">Contact Us</a>
+                    <a onClick={alert} className="px-5 py-3 bg-red-500 text-white rounded-md text-sm cursor-pointer  flex items-center gap-1">Emergency <GiRingingBell /></a>
                 </div>
             </div>
         </div>

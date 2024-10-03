@@ -26,7 +26,7 @@ const Emergency = () => {
                                 and volunteers to provide support.
                             </p>
                             <button>
-                                <a href="" className="px-5 py-3 bg-[#1565C0] text-white rounded-md text-sm cursor-pointer font-bold">Contribute</a>
+                                <a href="" className="px-5 py-3 bg-[#869555] text-white rounded-md text-sm cursor-pointer hover:bg-red-500 duration-200">Contribute</a>
                             </button>
                         </div>
                     </div>

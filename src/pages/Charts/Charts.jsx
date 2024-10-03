@@ -1,6 +1,6 @@
 const Charts = () => {
     return (
-        <div className="container mx-auto min-h-[500px]">
+        <div id="chart-data" className="container mx-auto min-h-[500px]">
             <div className="text-center mt-10">
                 <h1 className="text-4xl font-bold">Flood Data & Interactive Charts</h1>
                 <p>Track Water Levels, Rainfall, and Risk Areas</p>
@@ -15,7 +15,7 @@ const Charts = () => {
                     <div className="hero-content text-neutral-content text-center">
                         <div className="max-w-md">
                             <button>
-                                <a href="https://tidesandcurrents.noaa.gov/map/index.html?region=Oregon" className="px-5 py-3 bg-[#1565C0] text-white rounded-md text-sm cursor-pointer font-bold">Learn More</a>
+                                <a href="https://stn.wim.usgs.gov/FEV/" className="px-5 py-3 bg-[#869555] text-white rounded-md text-sm cursor-pointer hover:bg-red-500 duration-200">Learn More</a>
                             </button>
                         </div>
                     </div>

@@ -25,30 +25,30 @@ const Home = () => {
 
                 {/* Content */}
                 <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
-                    <h1 className="text-4xl md:text-6xl font-bold mb-4">Welcome to Our Website</h1>
-                    <p className="text-xl md:text-2xl mb-8 max-w-2xl">
-                        Discover amazing experiences and opportunities with us.
+                    <h1 className="text-4xl md:text-5xl font-bold mb-4">Waters on the Rise, A Climate Crisis Unveiled.</h1>
+                    <p className="text-lg mb-8 max-w-4xl">
+                        Explore the growing impact of climate change as rising waters reshape our world. Stay informed on the latest insights, data, and solutions to address this unfolding crisis.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4">
                         <Link
-                            href="/get-started"
-                            className="inline-block bg-[#1565C0] text-white font-bold py-2 px-6 rounded-lg transition-colors duration-200"
+                            to="/newsfeed"
+                            className="inline-block bg-[#869555] hover:bg-red-500 duration-300 text-white py-2 px-6 rounded-lg transition-colors"
                         >
                             Get Involved
                         </Link>
-                        <Link
-                            href="/learn-more"
-                            className="inline-block bg-transparent hover:bg-white hover:text-black text-white font-bold py-2 px-6 rounded-lg border-2 border-white transition-colors duration-200"
+                        <a
+                            href="#chart-data"
+                            className="inline-block bg-transparent hover:bg-white hover:text-black text-white py-2 px-6 rounded-lg border-2 border-white transition-colors duration-300"
                         >
                             Learn More
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </div>
             {/* Home ENd */}
             <Map />
             <Charts />
-            <Emergency/>
+            <Emergency />
         </div>
     );
 };

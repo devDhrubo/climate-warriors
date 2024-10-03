@@ -11,7 +11,6 @@ import Home from './pages/Home/Home';
 import Team from './pages/Team/Team';
 import Newsfeed from './pages/Newsfeed/Newsfeed';
 import ImpactCal from './pages/ImpactCal/ImpactCal';
-
 const router = createBrowserRouter([
   {
     path: "/",
