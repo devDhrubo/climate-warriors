@@ -1,5 +1,8 @@
 # Waters on the Rise: A Climate Crisis Unveiled 🌊
 
+You can explore the project live here: [Waters on the Rise](https://climatewarriors-nasa.netlify.app/).
+
+
 **Waters on the Rise** is an interactive web platform designed to deliver real-time insights and tools for individuals, communities, and policymakers to combat the growing risk of climate-induced flooding. Our project focuses on visualizing scientific data, offering user-driven insights, and encouraging community participation to improve preparedness and response to flood events caused by climate change.
 
 ## 🌍 Key Features
