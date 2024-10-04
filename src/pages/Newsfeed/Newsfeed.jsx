@@ -27,7 +27,7 @@ const Newsfeed = () => {
                 </div>
             </div>
 
-            <div className="flex w-full flex-col lg:flex-row container mx-auto">
+            <div className="flex w-full flex-col lg:flex-row container mx-auto gap-5">
                 <div className="card grid flex-grow place-items-center">
                     <div className="grid grid-cols-2 items-center gap-10">
                         <div className="card bg-base-100 w-80 h-[500px] shadow-xl mt-10">

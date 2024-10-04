@@ -61,7 +61,7 @@ const Map = () => {
                 <div className="h-80 flex flex-col mt-5 gap-11">
                     <div className="tooltip" data-tip="Demo Map Under Construction">
                         <button>
-                            <a href="https://tidesandcurrents.noaa.gov/map/index.html?region=Oregon" className="px-6 py-4 text-white rounded-md text-sm cursor-pointer bg-red-500 duration-200 flex items-center gap-2">Data Visualization <GiClick className="text-xl"/> </a>
+                            <a href="/interactive_sea_level_map.html" className="px-6 py-4 text-white rounded-md text-sm cursor-pointer bg-red-500 duration-200 flex items-center gap-2">Data Visualization <GiClick className="text-xl"/> </a>
                         </button>
                     </div>
                     <div className="card bg-base-100 image-full w-48 h-36 shadow-xl">
