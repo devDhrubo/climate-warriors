@@ -3,24 +3,20 @@ const Charts = () => {
         <div id="chart-data" className="container mx-auto min-h-[500px]">
             <div className="text-center mt-10">
                 <h1 className="text-4xl font-bold">Flood Data & Interactive Charts</h1>
-                <p>Track Water Levels, Rainfall, and Risk Areas</p>
+                <p className="my-4 mx-auto line-clamp-4">We’ve integrated the USGS Flood Event Viewer to provide real-time flood data from across the United States. This tool allows users to monitor water levels, streamflow, and rainfall, offering up-to-date flood conditions and historical data. With this integration, users can access reliable flood information to stay informed and prepared for flood events, enhancing the effectiveness of our climate impact tools.</p>
             </div>
+
             <div className="mt-16">
-                <div
-                    className="hero h-56"
-                    style={{
-                        backgroundImage: "url(https://i.ibb.co.com/fXLF5zq/chart.png)",
-                    }}>
-                    {/* <div className="hero-overlay bg-opacity-50"></div> */}
-                    <div className="hero-content text-neutral-content text-center">
-                        <div className="max-w-md">
-                            <button>
-                                <a href="https://stn.wim.usgs.gov/FEV/" className="px-5 py-3 bg-[#869555] text-white rounded-md text-sm cursor-pointer hover:bg-red-500 duration-200">Learn More</a>
-                            </button>
-                        </div>
+                <a href="https://stn.wim.usgs.gov/FEV/">
+                    <div
+                        className="hero min-h-[400px] cursor-pointer hover:bg-gray-600 duration-500"
+                        style={{
+                            backgroundImage: "url(https://i.ibb.co.com/f25FHG1/chart.png)",
+                        }}>
                     </div>
-                </div>
+                </a>
             </div>
+
         </div>
     );
 };

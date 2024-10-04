@@ -75,9 +75,26 @@ const Newsfeed = () => {
                                 </div>
                             </div>
                         </div>
+
+                        <div className="card bg-base-100 w-80 h-[500px] shadow-xl mt-10">
+                            <figure>
+                                <img
+                                    src="https://www.thedailystar.net/sites/default/files/styles/big_202/public/feature/images/farakka_bridge.jpg" />
+                            </figure>
+                            <div className="card-body">
+                                <h2 className="card-title">Farakka water release: FFWC says no chance of flood in next 7 days in Bangladesh</h2>
+                                <p>The FFWC officials have noticed only seven centimetres water rise in the <a href="3" className="underline">Read More</a> </p>
+                                <div className="card-actions justify-end">
+                                    <button><AiFillLike className="hover:text-green-600 duration-200 hover:text-xl" /></button>
+                                    <button><FaComment className="hover:text-green-600 duration-200 hover:text-xl" /></button>
+                                    <button><FaShareNodes className="hover:text-green-600 duration-200 hover:text-xl" /></button>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-                <div className="divider lg:divider-horizontal"><RxCross2 className="text-2xl"/></div>
+                <div className="divider lg:divider-horizontal"><RxCross2 className="text-2xl" /></div>
 
                 <div className="card grid flex-grow">
                     <div className="flex flex-col items-center">

@@ -2,11 +2,7 @@ import { IoMdHand } from "react-icons/io";
 
 const Emergency = () => {
     return (
-        <div className="container mx-auto">
-            <div className="text-center mt-10">
-                <h1 className="text-4xl font-bold">Immediate Emergency Assistance</h1>
-                <p>Emergency Assistance for Flood-Affected Areas: Immediate Support and Resources</p>
-            </div>
+        <div className="container mx-auto mt-32">
             <div>
                 <div
                     className="hero mt-10 min-h-screen rounded-3xl"
@@ -15,9 +11,9 @@ const Emergency = () => {
                     }}>
                     <div className="hero-overlay bg-opacity-80 rounded-3xl"></div>
                     <div className="hero-content text-neutral-content text-center">
-                        <div className="max-w-md">
+                        <div className="max-w-lg">
                             <h1 className="mb-5 text-5xl font-bold flex gap-2 justify-center">Hello Nasa <span><IoMdHand /></span></h1>
-                            <p className="mb-5">
+                            <p className="mb-5 text-lg">
                                 We expect NASA satellites to review the situation
                                 and determine if there is a potential flood risk.
                                 If a significant number of people request an emergency
@@ -25,9 +21,6 @@ const Emergency = () => {
                                 we will coordinate with local leaders
                                 and volunteers to provide support.
                             </p>
-                            <button>
-                                <a href="" className="px-5 py-3 bg-[#869555] text-white rounded-md text-sm cursor-pointer hover:bg-red-500 duration-200">Contribute</a>
-                            </button>
                         </div>
                     </div>
                 </div>

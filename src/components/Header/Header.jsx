@@ -5,21 +5,33 @@ import logo from "../../assets/Image/logo.jpg";
 const Header = () => {
     const alert = () => {
         Swal.fire({
-            title: "Thanks For Contact!",
-            text: "Our Team Will Contact with you soon",
-            icon: "success"
+            title: "Share Your Location?",
+            text: "Make Sure You Click on the Allow Button in the Left Corner!",
+            icon: "info",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Sure!"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                Swal.fire({
+                    title: "Thanks For Contact With Us!",
+                    text: "Our Team Will Contact With You As Soon as Possible",
+                    icon: "success"
+                });
+            }
         });
     }
 
-   const navLink = <>
+    const navLink = <>
         <Link><li><a>Home</a></li></Link>
         <Link to="/newsfeed"><li><a>Newsfeed</a></li></Link>
-        <Link to="/about"><li><a>About Us</a></li></Link>
         <Link to="/impact"><li><a>Impact Calculator</a></li></Link>
+        <Link to="/about"><li><a>About Us</a></li></Link>
     </>
 
     return (
-        
+
         <div className="container mx-auto">
             <div className="navbar bg-base-100">
                 <div className="navbar-start">

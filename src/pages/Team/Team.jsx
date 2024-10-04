@@ -3,6 +3,7 @@ import image2 from "../../assets/Image/2.jpg";
 import image3 from "../../assets/Image/3.jpg";
 import image4 from "../../assets/Image/4.jpg";
 import image5 from "../../assets/Image/5.jpg";
+import { RxCross2 } from "react-icons/rx";
 
 const Team = () => {
     return (
@@ -24,7 +25,7 @@ const Team = () => {
 
             </div>
             {/* card start */}
-            <div className="flex gap-20 container mx-auto mt-10">
+            <div className="flex gap-5 container mx-auto mt-10">
                 <div className="flex-1">
                     <div className="grid lg:grid-cols-3">
                         <div
@@ -101,6 +102,7 @@ const Team = () => {
 
                     </div>
                 </div>
+                <div className="divider lg:divider-horizontal"><RxCross2 className="text-2xl" /></div>
                 <div className="flex-1">
                     <h2 className="text-xl font-bold mb-3">About Climate Warriors_</h2>
                     <p>
